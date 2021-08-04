@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #f0f2f5;
+    background-repeat: no-repeat;  
+}
+
+h1,p{
+    position: relative;
+    top: 30vh;
+    left: 30vh;
+    
+}
+
+h1{
+    font: normal bold 4em arial;
+    color: blue;
+}
+
+p{
+    font: normal normal 1.5em arial;
+}
+
+main{
+    min-width: 34vh;
+    min-height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main.container{
+    background-color: white;
+    max-width: 60vh;
+    max-height: 39vh;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative;
+    left: 115vh;
+}
+
+input{
+    width: 52vh;
+    display: block;
+    margin-bottom: 12px;
+    padding: 16px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+}
+
+.input-field [placeholder]{
+    font-size: 18px;
+}
+
+form{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+form a{
+    font-size: 14px;
+    color:#1877f2;
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #dadde1;
+    text-decoration: none;
+}
+
+form a:hover{
+    text-decoration: underline;
+}
+
+.entrar, .criar{
+    color: white;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    padding: 14px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.entrar{
+    font-size: 20px;
+    width: 100%;
+    background-color: #1877f2;
+}
+
+.entrar:hover{
+    background-color: #166fe5;
+}
+
+.criar{
+    font-size: 17px;
+    background-color: #42b72a;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.criar:hover{
+    background-color: #36a420;
+}
