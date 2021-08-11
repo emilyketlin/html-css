@@ -49,6 +49,14 @@ input{
     padding: 16px;
     border: 1px solid #dddfe2;
     border-radius: 6px;
+    border: 1px solid #dddfe2;
+    outline: none;
+}
+
+input:focus{
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #1877f2;
 }
 
 .input-field [placeholder]{
@@ -104,4 +112,19 @@ form a:hover{
 
 .criar:hover{
     background-color: #36a420;
+}
+
+p, p > a{
+    color: #1c1e21;
+    font-size: 14px;
+    margin: 28px 0 0 0;
+}
+
+p > a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p > a:hover{
+    text-decoration: underline;
 }
